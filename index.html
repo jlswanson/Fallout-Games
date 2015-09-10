@@ -5,12 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fallout Games | Buy, Sell, Trade</title>
     <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/snowflakes.css">
     <link rel="stylesheet" href="css/custom.css">
     <script src="js/vendor/modernizr.js"></script>
+    <script src="js/snowflakes.js"></script>
   </head>
   <body>
+    <div id="container">
+      
+    </div>
+    <div id="snowflakesContainer">
+    </div>
     
     
+    <script>
+      var snowflakes = new Snowflakes('container','snowflakesContainer'); snowflakes.create(30);
+    </script>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
     <script>
